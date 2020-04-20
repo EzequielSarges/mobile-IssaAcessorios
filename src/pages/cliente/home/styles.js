@@ -36,6 +36,82 @@ export default StyleSheet.create({
         flexDirection:'column',
         alignItems:'center',
         justifyContent:'center'
+    },
+    subTitulo:{
+        flexDirection: 'row',
+        justifyContent:'space-around',
+        alignItems:'center',
+        borderColor:'#dcdcdc',
+        borderBottomWidth:1,
+    },
+    bodyHome:{
+        flexDirection:'column',
+        margin:10,
+        borderRadius: 5,
+        borderColor:'#dcdcdc',
+        borderBottomWidth:1,
+       
+    },
+    cardHome:{
+        flexDirection:'row',
+        marginBottom: 5
+    },
+    cardPedido:{
+        flexDirection: 'column',
+        padding: 5,
+        justifyContent:'center',
+        alignItems:'center',
+       
+        borderRadius: 3
+    },
+    tituloPedido:{
+        fontSize: 16,
+        color: '#000',
+
+    },
+    descricaoPedido:{
+        fontSize: 14,
+        color: '#4F4F4F'
+    },
+    valorPedido:{
+        fontSize: 18,
+        marginTop:15,
+        color: '#FF05B9'
+    },
+    imgPedido:{
+        height: 89,
+        width: 125,
+    },
+    textSubTitulo:{
+        color: '#838383',
+        fontSize: 18,
+    },
+    cardCarousel:{
+        flexDirection:'column',
+        justifyContent:'center',
+        alignItems:'center',
+        marginBottom: 15,
+        borderColor:'#6A5ACD',
+        borderBottomWidth:1,
+        borderLeftWidth: 1,
+        borderRightWidth:1,
+        borderTopWidth:1,
+        borderRadius: 3,
+        marginRight:5
+    },
+    imgCarousel:{
+        height:70,
+        width:90,
+       
+    },
+    areaCarousel:{
+        justifyContent:'center',
+        alignItems: 'center',
+        borderColor:'#dcdcdc',
+        borderBottomWidth:1,
+       
+        marginBottom:15,
+        padding: 0
     }
     
 
