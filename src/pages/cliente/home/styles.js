@@ -76,11 +76,20 @@ export default StyleSheet.create({
     valorPedido:{
         fontSize: 18,
         marginTop:15,
-        color: '#FF05B9'
+        color: '#fff',
+        backgroundColor:'#FF05B9',
+        borderColor:'#dcdcdc',
+        borderBottomWidth:1,
+        borderLeftWidth: 1,
+        borderRightWidth:1,
+        borderTopWidth:1,
+        borderRadius: 3,
+        padding: 5
     },
     imgPedido:{
         height: 89,
         width: 125,
+        
     },
     textSubTitulo:{
         color: '#838383',

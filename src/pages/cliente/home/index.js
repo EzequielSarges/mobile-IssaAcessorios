@@ -65,7 +65,7 @@ export default function login(){
                                 <Text style={styles.descricaoPedido}>Laço rosa com detalhes verdes.</Text>
                                 <Text style={styles.descricaoPedido}>Laço rosa com detalhes verdes.</Text>
                                 <Text style={styles.descricaoPedido}>Laço rosa com detalhes verdes.</Text>
-                                <Text style={styles.valorPedido}>Apenas R$: 55,50</Text>
+                                <Text style={styles.valorPedido}> R$: 55,50</Text>
                             </View>   
                         </TouchableOpacity>
                     </View>  
@@ -78,7 +78,7 @@ export default function login(){
                                 <Text style={styles.descricaoPedido}>Laço rosa com detalhes verdes.</Text>
                                 <Text style={styles.descricaoPedido}>Laço rosa com detalhes verdes.</Text>
                                 <Text style={styles.descricaoPedido}>Laço rosa com detalhes verdes.</Text>
-                                <Text style={styles.valorPedido}>Apenas R$: 55,50</Text>
+                                <Text style={styles.valorPedido}> R$: 55,50</Text>
                             </View>   
                         </TouchableOpacity>
                     </View>
@@ -91,7 +91,7 @@ export default function login(){
                                 <Text style={styles.descricaoPedido}>Laço rosa com detalhes verdes.</Text>
                                 <Text style={styles.descricaoPedido}>Laço rosa com detalhes verdes.</Text>
                                 <Text style={styles.descricaoPedido}>Laço rosa com detalhes verdes.</Text>
-                                <Text style={styles.valorPedido}>Apenas R$: 55,50</Text>
+                                <Text style={styles.valorPedido}> R$: 55,50</Text>
                             </View>   
                         </TouchableOpacity>
                     </View>
@@ -104,7 +104,7 @@ export default function login(){
                                 <Text style={styles.descricaoPedido}>Laço rosa com detalhes verdes.</Text>
                                 <Text style={styles.descricaoPedido}>Laço rosa com detalhes verdes.</Text>
                                 <Text style={styles.descricaoPedido}>Laço rosa com detalhes verdes.</Text>
-                                <Text style={styles.valorPedido}>Apenas R$: 55,50</Text>
+                                <Text style={styles.valorPedido}> R$: 55,50</Text>
                             </View>   
                         </TouchableOpacity>
                     </View>
@@ -117,7 +117,7 @@ export default function login(){
                                 <Text style={styles.descricaoPedido}>Laço rosa com detalhes verdes.</Text>
                                 <Text style={styles.descricaoPedido}>Laço rosa com detalhes verdes.</Text>
                                 <Text style={styles.descricaoPedido}>Laço rosa com detalhes verdes.</Text>
-                                <Text style={styles.valorPedido}>Apenas R$: 55,50</Text>
+                                <Text style={styles.valorPedido}> R$: 55,50</Text>
                             </View>   
                         </TouchableOpacity>
                     </View>                                     
