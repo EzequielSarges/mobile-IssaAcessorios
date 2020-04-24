@@ -64,52 +64,52 @@ export default function login(){
                                 <View style={styles.cardPedido}>
                                     <Text style={styles.tituloPedido}>Laço Rosa</Text>
                                     <Ionicons name="md-heart-empty" size={23} color="#e02041" style={{marginLeft: 5}} />
-                                    <Text style={styles.descricaoPedido}>Laço rosa com detalhes verdes.</Text>
-                                    <Text style={styles.descricaoPedido}>Laço rosa com detalhes verdes.</Text>
+                                    <Text style={styles.descricaoPedido}>Laço rosa com.</Text>
+                                    <Text style={styles.descricaoPedido}>Laço rosa com.</Text>
                                     <Text style={styles.valorPedido}> R$: 55,50</Text>
                                 </View>   
                             </TouchableOpacity>
-                        </View>       
+                        </View>   
                         <View style={styles.bodyHome}>
                             <TouchableOpacity style={styles.cardHome}> 
                                 <Image style={styles.imgPedido} source={lacoos}/>
                                 <View style={styles.cardPedido}>
                                     <Text style={styles.tituloPedido}>Laço Rosa</Text>
                                     <Ionicons name="md-heart-empty" size={23} color="#e02041" style={{marginLeft: 5}} />
-                                    <Text style={styles.descricaoPedido}>Laço rosa com detalhes verdes.</Text>
-                                    <Text style={styles.descricaoPedido}>Laço rosa com detalhes verdes.</Text>
+                                    <Text style={styles.descricaoPedido}>Laço rosa com.</Text>
+                                    <Text style={styles.descricaoPedido}>Laço rosa com.</Text>
                                     <Text style={styles.valorPedido}> R$: 55,50</Text>
                                 </View>   
                             </TouchableOpacity>
-                        </View>       
+                        </View>   
                         <View style={styles.bodyHome}>
                             <TouchableOpacity style={styles.cardHome}> 
                                 <Image style={styles.imgPedido} source={lacoos}/>
                                 <View style={styles.cardPedido}>
                                     <Text style={styles.tituloPedido}>Laço Rosa</Text>
                                     <Ionicons name="md-heart-empty" size={23} color="#e02041" style={{marginLeft: 5}} />
-                                    <Text style={styles.descricaoPedido}>Laço rosa com detalhes verdes.</Text>
-                                    <Text style={styles.descricaoPedido}>Laço rosa com detalhes verdes.</Text>
+                                    <Text style={styles.descricaoPedido}>Laço rosa com.</Text>
+                                    <Text style={styles.descricaoPedido}>Laço rosa com.</Text>
                                     <Text style={styles.valorPedido}> R$: 55,50</Text>
                                 </View>   
                             </TouchableOpacity>
-                        </View>       
+                        </View>   
                         <View style={styles.bodyHome}>
                             <TouchableOpacity style={styles.cardHome}> 
                                 <Image style={styles.imgPedido} source={lacoos}/>
                                 <View style={styles.cardPedido}>
                                     <Text style={styles.tituloPedido}>Laço Rosa</Text>
                                     <Ionicons name="md-heart-empty" size={23} color="#e02041" style={{marginLeft: 5}} />
-                                    <Text style={styles.descricaoPedido}>Laço rosa com detalhes verdes.</Text>
-                                    <Text style={styles.descricaoPedido}>Laço rosa com detalhes verdes.</Text>
+                                    <Text style={styles.descricaoPedido}>Laço rosa com.</Text>
+                                    <Text style={styles.descricaoPedido}>Laço rosa com.</Text>
                                     <Text style={styles.valorPedido}> R$: 55,50</Text>
                                 </View>   
                             </TouchableOpacity>
-                        </View>                                      
+                        </View>                                       
                     </ScrollView>
                     </View>
                     <View style={styles.cardCarousel}>
-                        <Text style={styles.textCard}>Destaques</Text>
+                        <Text style={styles.textCard}>Laços Simples</Text>
                     <ScrollView horizontal={true} >
                         <View style={styles.bodyHome}>
                             <TouchableOpacity style={styles.cardHome}> 
@@ -117,50 +117,51 @@ export default function login(){
                                 <View style={styles.cardPedido}>
                                     <Text style={styles.tituloPedido}>Laço Rosa</Text>
                                     <Ionicons name="md-heart-empty" size={23} color="#e02041" style={{marginLeft: 5}} />
-                                    <Text style={styles.descricaoPedido}>Laço rosa com detalhes verdes.</Text>
-                                    <Text style={styles.descricaoPedido}>Laço rosa com detalhes verdes.</Text>
+                                    <Text style={styles.descricaoPedido}>Laço rosa com.</Text>
+                                    <Text style={styles.descricaoPedido}>Laço rosa com.</Text>
                                     <Text style={styles.valorPedido}> R$: 55,50</Text>
                                 </View>   
                             </TouchableOpacity>
-                        </View>       
+                        </View>   
                         <View style={styles.bodyHome}>
                             <TouchableOpacity style={styles.cardHome}> 
                                 <Image style={styles.imgPedido} source={lacoos}/>
                                 <View style={styles.cardPedido}>
                                     <Text style={styles.tituloPedido}>Laço Rosa</Text>
                                     <Ionicons name="md-heart-empty" size={23} color="#e02041" style={{marginLeft: 5}} />
-                                    <Text style={styles.descricaoPedido}>Laço rosa com detalhes verdes.</Text>
-                                    <Text style={styles.descricaoPedido}>Laço rosa com detalhes verdes.</Text>
+                                    <Text style={styles.descricaoPedido}>Laço rosa com.</Text>
+                                    <Text style={styles.descricaoPedido}>Laço rosa com.</Text>
                                     <Text style={styles.valorPedido}> R$: 55,50</Text>
                                 </View>   
                             </TouchableOpacity>
-                        </View>       
+                        </View>   
                         <View style={styles.bodyHome}>
                             <TouchableOpacity style={styles.cardHome}> 
                                 <Image style={styles.imgPedido} source={lacoos}/>
                                 <View style={styles.cardPedido}>
                                     <Text style={styles.tituloPedido}>Laço Rosa</Text>
                                     <Ionicons name="md-heart-empty" size={23} color="#e02041" style={{marginLeft: 5}} />
-                                    <Text style={styles.descricaoPedido}>Laço rosa com detalhes verdes.</Text>
-                                    <Text style={styles.descricaoPedido}>Laço rosa com detalhes verdes.</Text>
+                                    <Text style={styles.descricaoPedido}>Laço rosa com.</Text>
+                                    <Text style={styles.descricaoPedido}>Laço rosa com.</Text>
                                     <Text style={styles.valorPedido}> R$: 55,50</Text>
                                 </View>   
                             </TouchableOpacity>
-                        </View>       
+                        </View>   
                         <View style={styles.bodyHome}>
                             <TouchableOpacity style={styles.cardHome}> 
                                 <Image style={styles.imgPedido} source={lacoos}/>
                                 <View style={styles.cardPedido}>
                                     <Text style={styles.tituloPedido}>Laço Rosa</Text>
                                     <Ionicons name="md-heart-empty" size={23} color="#e02041" style={{marginLeft: 5}} />
-                                    <Text style={styles.descricaoPedido}>Laço rosa com detalhes verdes.</Text>
-                                    <Text style={styles.descricaoPedido}>Laço rosa com detalhes verdes.</Text>
+                                    <Text style={styles.descricaoPedido}>Laço rosa com.</Text>
+                                    <Text style={styles.descricaoPedido}>Laço rosa com.</Text>
                                     <Text style={styles.valorPedido}> R$: 55,50</Text>
                                 </View>   
                             </TouchableOpacity>
-                        </View>                                      
+                        </View>                                       
                     </ScrollView>
                     </View>
+                    
                 </ScrollView>
             <View style={styles.footer}>
                     <TouchableOpacity style={styles.carFooter}>

@@ -87,8 +87,8 @@ export default StyleSheet.create({
         padding: 5
     },
     imgPedido:{
-        height: 150,
-        width: 200,
+        height: 100,
+        width: 150,
         borderColor:'#dcdcdc',
         borderBottomWidth:1,
         borderLeftWidth: 1,
@@ -133,7 +133,7 @@ export default StyleSheet.create({
     },
     textCard:{
         color: '#DB7093',
-        fontSize: 25
+        fontSize: 23
     }
     
 
