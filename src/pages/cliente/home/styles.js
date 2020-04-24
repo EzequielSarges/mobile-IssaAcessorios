@@ -67,6 +67,7 @@ export default StyleSheet.create({
     tituloPedido:{
         fontSize: 16,
         color: '#000',
+       
 
     },
     descricaoPedido:{
@@ -133,7 +134,8 @@ export default StyleSheet.create({
     },
     textCard:{
         color: '#DB7093',
-        fontSize: 23
+        fontSize: 23,
+        fontWeight: 'bold'
     }
     
 

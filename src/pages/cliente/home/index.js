@@ -10,7 +10,6 @@ import iconFavorito from '../../../assets/icons/iconFavoritos/favoritos.png';
 import iconPedidos from '../../../assets/icons/iconPedidos/pedido.png'; 
 
 import lacoos from '../../../assets/lacos.jpg'; 
-import categoria from '../../../assets/tiara3.jpg'; 
 import imgherader from '../../../assets/fundoHeader.jpg';
 import logoisa from '../../../assets/logoIsa.png'
 
@@ -161,6 +160,7 @@ export default function login(){
                         </View>                                       
                     </ScrollView>
                     </View>
+                    
                     
                 </ScrollView>
             <View style={styles.footer}>
