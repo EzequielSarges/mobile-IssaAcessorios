@@ -7,13 +7,15 @@ export default StyleSheet.create({
     },
     header:{
         backgroundColor:'#fff',
-        height: 50,
         justifyContent:'center',
-        alignItems: 'flex-end',
-        marginTop: 22
+        alignItems: 'center',
+        borderColor:'#DB7093',
+        borderBottomWidth:1,
+        borderTopWidth:25,
+        borderRadius: 3,
     },
     footer:{
-        backgroundColor: '#FF05B9',
+        backgroundColor: '#DB7093',
         flexDirection: 'row',
         justifyContent:'space-around'
     },
@@ -37,31 +39,29 @@ export default StyleSheet.create({
         alignItems:'center',
         justifyContent:'center'
     },
-    subTitulo:{
-        flexDirection: 'row',
-        justifyContent:'space-around',
-        alignItems:'center',
-        borderColor:'#dcdcdc',
-        borderBottomWidth:1,
-    },
     bodyHome:{
         flexDirection:'column',
-        margin:10,
+        marginRight:5,
+        marginLeft: 5,
+        marginTop:5,
         borderRadius: 5,
         borderColor:'#dcdcdc',
         borderBottomWidth:1,
+        borderLeftWidth: 1,
+        borderRightWidth:1,
+        borderTopWidth:1,
        
     },
     cardHome:{
-        flexDirection:'row',
-        marginBottom: 5
+        flexDirection:'column',
+        marginBottom: 5,
+        justifyContent:'center',
+        alignItems:'center',
     },
     cardPedido:{
         flexDirection: 'column',
-        padding: 5,
         justifyContent:'center',
         alignItems:'center',
-       
         borderRadius: 3
     },
     tituloPedido:{
@@ -87,26 +87,22 @@ export default StyleSheet.create({
         padding: 5
     },
     imgPedido:{
-        height: 89,
-        width: 125,
+        height: 150,
+        width: 200,
+        borderColor:'#dcdcdc',
+        borderBottomWidth:1,
+        borderLeftWidth: 1,
+        borderRightWidth:1,
+        borderTopWidth:1,
+        borderRadius: 5,
         
-    },
-    textSubTitulo:{
-        color: '#838383',
-        fontSize: 18,
+        
     },
     cardCarousel:{
         flexDirection:'column',
         justifyContent:'center',
         alignItems:'center',
         marginBottom: 15,
-        borderColor:'#6A5ACD',
-        borderBottomWidth:1,
-        borderLeftWidth: 1,
-        borderRightWidth:1,
-        borderTopWidth:1,
-        borderRadius: 3,
-        marginRight:5
     },
     imgCarousel:{
         height:70,
@@ -118,9 +114,26 @@ export default StyleSheet.create({
         alignItems: 'center',
         borderColor:'#dcdcdc',
         borderBottomWidth:1,
-       
         marginBottom:15,
-        padding: 0
+        padding: 0,
+        backgroundColor:'#dfdfdf'
+    },
+    logoIsa:{
+        height:110,
+        width: 97,
+        margin: 3
+    },
+    textInput:{
+        backgroundColor:'#DB7093',
+        color:'#fff',
+        width: 290,
+        marginBottom: 5,
+        padding: 3,
+        borderRadius: 4
+    },
+    textCard:{
+        color: '#DB7093',
+        fontSize: 25
     }
     
 
