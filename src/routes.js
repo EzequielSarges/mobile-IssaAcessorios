@@ -13,6 +13,9 @@ import imagens from './pages/admin/imagens';
 import login from './pages/cliente/login';
 import cadastroCliente from './pages/cliente/cadastro';
 import home from './pages/cliente/home';
+import detalheProduto from './pages/cliente/detalhesProduto';
+
+
 
 
 export default function Routes(){
@@ -26,6 +29,7 @@ export default function Routes(){
                 <AppStack.Screen name="imagens" component={imagens}/>
                 <AppStack.Screen name="cadastroCliente" component={cadastroCliente}/>
                 <AppStack.Screen name="home" component={home}/>
+                <AppStack.Screen name="detalhesProduto" component={detalheProduto}/>
             </AppStack.Navigator>
         </NavigationContainer>
     );
