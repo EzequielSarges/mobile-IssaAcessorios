@@ -43,11 +43,6 @@ export default StyleSheet.create({
         marginTop: 20,
         marginLeft: 50
     },
-    headerAdm:{
-        marginTop:25,
-        justifyContent:'center',
-        alignItems:'flex-end'
-    },
     textAdmin:{
         marginRight:25,
         backgroundColor: '#f05a5b',

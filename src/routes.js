@@ -23,12 +23,12 @@ export default function Routes(){
     return(
         <NavigationContainer>
             <AppStack.Navigator screenOptions={{headerShown:false}}>
+                <AppStack.Screen name="home" component={home}/>
                 <AppStack.Screen name="login" component={login}/>
                 <AppStack.Screen name="painel" component={painel}/>
                 <AppStack.Screen name="storeCategoria" component={storeCategoria}/>
                 <AppStack.Screen name="imagens" component={imagens}/>
                 <AppStack.Screen name="cadastroCliente" component={cadastroCliente}/>
-                <AppStack.Screen name="home" component={home}/>
                 <AppStack.Screen name="detalhesProduto" component={detalheProduto}/>
             </AppStack.Navigator>
         </NavigationContainer>

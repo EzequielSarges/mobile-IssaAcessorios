@@ -19,18 +19,21 @@ export default StyleSheet.create({
         flexDirection: 'row',
         justifyContent:'space-around'
     },
-    body:{
-        backgroundColor: '#fff',
-        marginTop: 20,
+    headerAdm:{
+        marginTop:8,
         justifyContent:'center',
+        flexDirection:'column',
         alignItems:'center',
-        flexDirection:'column'
+     
     },
-    iconFooter:{
-        height: 30,
-        width: 25,
-        marginTop: 5
+    textAdmin:{
+        marginRight:280,
+        backgroundColor: '#f05a5b',
+        padding: 5,
+        borderRadius: 5,
+        color: '#fff'
     },
+ 
     textFooter:{
         fontSize: 11
     },
@@ -67,26 +70,8 @@ export default StyleSheet.create({
     tituloPedido:{
         fontSize: 16,
         color: '#000',
-       
-
     },
-    descricaoPedido:{
-        fontSize: 14,
-        color: '#4F4F4F'
-    },
-    valorPedido:{
-        fontSize: 18,
-        marginTop:15,
-        color: '#fff',
-        backgroundColor:'#FF05B9',
-        borderColor:'#dcdcdc',
-        borderBottomWidth:1,
-        borderLeftWidth: 1,
-        borderRightWidth:1,
-        borderTopWidth:1,
-        borderRadius: 3,
-        padding: 5
-    },
+    
     imgPedido:{
         height: 100,
         width: 150,
@@ -96,8 +81,6 @@ export default StyleSheet.create({
         borderRightWidth:1,
         borderTopWidth:1,
         borderRadius: 5,
-        
-        
     },
     cardCarousel:{
         flexDirection:'column',
@@ -105,23 +88,10 @@ export default StyleSheet.create({
         alignItems:'center',
         marginBottom: 15,
     },
-    imgCarousel:{
-        height:70,
-        width:90,
-       
-    },
-    areaCarousel:{
-        justifyContent:'center',
-        alignItems: 'center',
-        borderColor:'#dcdcdc',
-        borderBottomWidth:1,
-        marginBottom:15,
-        padding: 0,
-        backgroundColor:'#dfdfdf'
-    },
+    
     logoIsa:{
-        height:110,
-        width: 97,
+        height:80,
+        width: 71,
         margin: 3
     },
     textInput:{
