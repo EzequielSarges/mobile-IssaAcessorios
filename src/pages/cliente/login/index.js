@@ -2,15 +2,17 @@ import React, {useState, useEffect} from 'react';
 import AsyncStorage from '@react-native-community/async-storage'; 
 import {KeyboardAvoidingView, Platform ,ImageBackground, View, Image, TextInput, Text, TouchableOpacity} from 'react-native';
 import {useNavigation} from '@react-navigation/native';
+import Modal from 'react-native-modal';
 import logoImg from '../../../assets/logoIsa.png'; 
 import fundo from '../../../assets/fundoLogin.png'
 import styles from './styles';
+
 
 export default function login(){
 
     const [email, setEmail] = useState('teste')
     const [senha, setSenha] = useState('teste')
-    const [alerta, setAlerta] = useState('none')
+    const [alerta, setAlerta] = useState(false)
     const navigation = useNavigation();
 
     async function loginForm(){
@@ -26,12 +28,9 @@ export default function login(){
                 })
             })
             let json = await response.json()
-            //verifica e exibi mensagem de usuario n„o encontrado
+            //verifica e exibi mensagem de usuario n√£o encontrado
             if(json.error){
-                setAlerta("flex")
-                setTimeout(()=>{
-                    setAlerta("none")
-                },3000)
+                setAlerta(true)
                 await AsyncStorage.clear()
             }
             else{
@@ -48,6 +47,9 @@ export default function login(){
     function navigarToHome(){
         navigation.navigate('home');
     }
+    async function fecharModal(){
+        setAlerta(false)
+    }
    
     return (
         <KeyboardAvoidingView  enabled={ Platform.os=='ios'}behavior='padding' style={styles.container}>
@@ -55,7 +57,12 @@ export default function login(){
                 <View style={styles.header}>
                     <Image style={styles.logoImg} source={logoImg}/>
                 </View>
-                <Text style={{display:alerta, backgroundColor: '#f05a5b', color:"#fff" }}>Usuario n„o encontrado</Text>
+                <Modal isVisible={alerta} swipeDirection={['up','down']}>
+                    <Text style={styles.textAlert} >USU√ÅRIO N√ÉO ENCONTRADO</Text>
+                    <TouchableOpacity style={styles.buttonAlert} onPress={fecharModal}>
+                        <Text  style={styles.textButtonAlert}>TENTAR NOVAMENTE</Text>
+                    </TouchableOpacity>
+                </Modal>
                 <View style={styles.form}>
                     <TextInput style={styles.input}
                     placeholder="Seu e-mail"

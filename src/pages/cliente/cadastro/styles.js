@@ -35,6 +35,23 @@ export default StyleSheet.create({
         color:'#fff',
         fontSize: 16
     },
+    buttonAlert:{
+        backgroundColor: '#C71585',
+        margin: 5,
+        alignItems:'center',
+        borderRadius:4,
+        height: 44
+    },
+    textButtonAlert:{
+        marginTop: 10,
+        color: "#fff"
+    },
+    textAlert:{
+        marginLeft:20,
+        fontSize: 16,
+        marginBottom: 20,
+        color: '#00FF00'
+    },
     textCad:{
         marginTop: 20,
         marginLeft: 50

@@ -1,5 +1,5 @@
 import React,{useState, useEffect} from 'react';
-import {KeyboardAvoidingView, Platform ,ImageBackground, View, Image,Button, TextInput, Text, TouchableOpacity} from 'react-native';
+import {KeyboardAvoidingView, Platform ,ImageBackground, View,Button, TextInput, Text, TouchableOpacity} from 'react-native';
 import {useNavigation} from '@react-navigation/native';
 import logoImg from '../../../assets/logoIsa.png'; 
 import fundo from '../../../assets/fundoLogin.png'
@@ -14,7 +14,7 @@ export default function login(){
     const [cpf, setCpf] = useState('vazio')
     const [senha, setSenha] = useState('vazio')
     const [telefone, setTelefone] = useState('vazio')
-    const [modalMudar, setModal] = useState(false)
+    const [modalMudar, setModal] = useState(true)
     
     async function sendForm(){
         
@@ -44,6 +44,12 @@ export default function login(){
     function navigarToLogin(){
         navigation.navigate('login');
     }
+    async function fecharModal(){
+        setModal(false)
+        setTimeout(()=>{
+            navigarToLogin()
+        },200)
+    }
     return (
         <KeyboardAvoidingView  enabled={ Platform.os=='ios'}behavior='padding' style={styles.container}>
             <ImageBackground style={styles.imgFundo} source={fundo}>
@@ -52,11 +58,12 @@ export default function login(){
                         CADASTRO DE USÚARIO
                     </Text>
                 </View>
-                <Modal isVisible={modalMudar} animationIn={"slideInUp"}>
-                    <View style={{backgroundColor:'#fff', height: 100 }}> 
-                    <Text >CADASTRO EFETUADO COM SUCESSO!</Text>
-                    <Button onPress={navigarToLogin} title="FAZER LOGIN"/ >
-                    </View>
+                <Modal isVisible={modalMudar} swipeDirection={['up','down']}>
+                    <Text style={styles.textAlert} >CADASTRO EFETUADO COM SUCESSO!</Text>
+                    <TouchableOpacity style={styles.buttonAlert} onPress={fecharModal}>
+                        <Text  style={styles.textButtonAlert}>FAZER LOGIN</Text>
+                    </TouchableOpacity>
+    
                 </Modal>
                 <View style={styles.form}>
                     <Text>Nome completo:</Text>

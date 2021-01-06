@@ -13,6 +13,23 @@ export default StyleSheet.create({
        marginTop: 55,
        marginLeft:88
     },
+    buttonAlert:{
+        backgroundColor: '#C71585',
+        margin: 5,
+        alignItems:'center',
+        borderRadius:4,
+        height: 44
+    },
+    textButtonAlert:{
+        marginTop: 10,
+        color: "#fff"
+    },
+    textAlert:{
+        marginLeft:50,
+        fontSize: 16,
+        marginBottom: 20,
+        color: '#FF0000'
+    },
     form:{
         alignSelf: 'stretch',
         paddingHorizontal: 30,
