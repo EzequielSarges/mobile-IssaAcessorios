@@ -14,7 +14,7 @@ export default function login(){
     const [cpf, setCpf] = useState('vazio')
     const [senha, setSenha] = useState('vazio')
     const [telefone, setTelefone] = useState('vazio')
-    const [modalMudar, setModal] = useState(true)
+    const [modalMudar, setModal] = useState(false)
     
     async function sendForm(){
         

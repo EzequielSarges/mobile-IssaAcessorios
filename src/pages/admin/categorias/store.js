@@ -2,14 +2,7 @@ import React from 'react';
 import {View, Image, TextInput, Text, TouchableOpacity} from 'react-native';
 import styles from './styles';
 import imgCategorias from '../../../assets/cad.png';
-import lacos from '../../../assets/lacos.jpg';
-import laco2 from '../../../assets/laco2.jpg';
-import laco3 from '../../../assets/laco3.jpg';
-import laco4 from '../../../assets/laco4.jpg';
 
-import tiara from '../../../assets/tiara.png';
-import tiara2 from '../../../assets/tiara2.jpg';
-import tiara3 from '../../../assets/tiara3.jpg';
 
 export default function store(){
     return (

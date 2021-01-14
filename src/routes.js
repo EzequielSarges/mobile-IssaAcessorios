@@ -14,6 +14,7 @@ import login from './pages/cliente/login';
 import cadastroCliente from './pages/cliente/cadastro';
 import home from './pages/cliente/home';
 import detalheProduto from './pages/cliente/detalhesProduto';
+import perfil from './pages/cliente/perfil'
 
 
 
@@ -30,6 +31,7 @@ export default function Routes(){
                 <AppStack.Screen name="imagens" component={imagens}/>
                 <AppStack.Screen name="cadastroCliente" component={cadastroCliente}/>
                 <AppStack.Screen name="detalhesProduto" component={detalheProduto}/>
+                <AppStack.Screen name="perfil" component={perfil}/>
             </AppStack.Navigator>
         </NavigationContainer>
     );

@@ -3,7 +3,7 @@ import {StyleSheet} from 'react-native';
 export default StyleSheet.create({
     painel:{
         flex: 1,
-        backgroundColor:'#fff',
+        backgroundColor:'#F2F2F2',
     },
     header:{
         backgroundColor:'#fff',
@@ -44,51 +44,78 @@ export default StyleSheet.create({
     },
     bodyHome:{
         flexDirection:'column',
-        marginRight:5,
-        marginLeft: 5,
-        marginTop:5,
+        marginRight:10,
+        marginLeft: 10,
+        marginBottom:10,
         borderRadius: 5,
-        borderColor:'#dcdcdc',
+        borderColor:'#fff',
         borderBottomWidth:1,
         borderLeftWidth: 1,
         borderRightWidth:1,
         borderTopWidth:1,
+        backgroundColor:'#fff'
        
     },
     cardHome:{
-        flexDirection:'column',
-        marginBottom: 5,
-        justifyContent:'center',
-        alignItems:'center',
-    },
+        flexDirection:'row',
+     },
     cardPedido:{
-        flexDirection: 'column',
-        justifyContent:'center',
         alignItems:'center',
-        borderRadius: 3
+        width: 189,
+    
+    },
+    cardCategorias:{
+        marginBottom: 15,
+        marginTop:10,
+        alignItems:'center',
+        flexDirection:'row',
+    },
+    corpoCategorias:{
+        alignItems:'center',
+        borderRadius: 55,
+        borderBottomWidth:2,
+        borderLeftWidth: 1,
+        borderRightWidth:2,
+        borderTopWidth:1,
+        height:59,
+        width: 59,
+        padding:5
+    },
+    tituloCategorias:{
+        fontSize: 9,
+        fontWeight: "bold"
     },
     tituloPedido:{
         fontSize: 16,
         color: '#000',
+        fontWeight:'700',
+        marginLeft: 10
+    },
+    tituloEstoque:{
+        fontSize: 12,
+        color: '#008000',
+        fontWeight:'100',
+        marginLeft: 10
+    },
+    tituloPreco:{
+        fontSize: 22,
+        color: '#DB7093',
+        fontWeight: '100',
+        
+        marginLeft: 10,
+        fontWeight:'bold',
     },
     
     imgPedido:{
         height: 100,
         width: 150,
-        borderColor:'#dcdcdc',
-        borderBottomWidth:1,
-        borderLeftWidth: 1,
-        borderRightWidth:1,
-        borderTopWidth:1,
         borderRadius: 5,
     },
-    cardCarousel:{
-        flexDirection:'column',
-        justifyContent:'center',
-        alignItems:'center',
-        marginBottom: 15,
-    },
-    
+    imgCategorias:{
+        height:20,
+        width:20,
+        
+    },    
     logoIsa:{
         height:80,
         width: 71,
