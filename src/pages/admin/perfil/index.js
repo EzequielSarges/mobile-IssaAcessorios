@@ -3,6 +3,7 @@ import styles from './styles'
 import {View,TouchableOpacity, Text,Image} from 'react-native'
 import { Ionicons } from '@expo/vector-icons';
 import { AntDesign } from '@expo/vector-icons'; 
+import {useNavigation} from '@react-navigation/native';
 
 import iconPedidos from '../../../assets/produto.png'
 import iconFaturamento from '../../../assets/faturamento.png'
@@ -13,6 +14,10 @@ import imgUser from '../../../assets/user.jpeg'
 
 
 export default function perfil(){
+    const navigation = useNavigation();
+    function navigarToCadProdutos(){
+        navigation.navigate('produtos');
+    }
     return(
         <View style={styles.cardPai}>
                 <View style={styles.cardSuperior}>
@@ -60,7 +65,7 @@ export default function perfil(){
                         <Text>Cadastrar Categoria</Text>
                     </TouchableOpacity>
 
-                    <TouchableOpacity style={styles.cardAcoes}>
+                    <TouchableOpacity onPress={navigarToCadProdutos} style={styles.cardAcoes}>
                         <Image style={{height:25,width:25}} source={iconCade}/>
                         <Text>Cadastrar Produto</Text>
                     </TouchableOpacity>

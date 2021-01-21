@@ -5,16 +5,17 @@ import {createStackNavigator} from '@react-navigation/stack';
 const AppStack = createStackNavigator();
 
 // ROTAS ADMIN
-import painel from './pages/admin/painel';
+
+import perfil from './pages/admin/perfil'
 import storeCategoria from './pages/admin/categorias/store';
-import imagens from './pages/admin/imagens';
+import produtos from './pages/admin/produtos/store';
 
 //ROTAS CLIENTE
 import login from './pages/cliente/login';
 import cadastroCliente from './pages/cliente/cadastro';
 import home from './pages/cliente/home';
 import detalheProduto from './pages/cliente/detalhesProduto';
-import perfil from './pages/cliente/perfil'
+import painel from './pages/cliente/painel';
 
 
 
@@ -28,7 +29,7 @@ export default function Routes(){
                 <AppStack.Screen name="login" component={login}/>
                 <AppStack.Screen name="painel" component={painel}/>
                 <AppStack.Screen name="storeCategoria" component={storeCategoria}/>
-                <AppStack.Screen name="imagens" component={imagens}/>
+                <AppStack.Screen name="produtos" component={produtos}/>
                 <AppStack.Screen name="cadastroCliente" component={cadastroCliente}/>
                 <AppStack.Screen name="detalhesProduto" component={detalheProduto}/>
                 <AppStack.Screen name="perfil" component={perfil}/>
