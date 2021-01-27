@@ -22,7 +22,7 @@ export default function perfil(){
         <View style={styles.cardPai}>
                 <View style={styles.cardSuperior}>
                     <TouchableOpacity style={{marginTop:25}}>
-                        <Ionicons name="md-arrow-back" size={18} color="#fff" />
+                        <AntDesign name="arrowleft" size={24} color="#fff" />
                     </TouchableOpacity>
                     <Text style={{marginTop:25}}>Perfil do Usuário</Text>
                     <TouchableOpacity style={{marginTop:25}}>

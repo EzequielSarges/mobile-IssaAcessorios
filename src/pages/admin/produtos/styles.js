@@ -3,77 +3,93 @@ import {StyleSheet} from 'react-native';
 export default StyleSheet.create({
     container:{
         flex: 1,
-        backgroundColor:'#fff'
+        backgroundColor:'#dcdcdc',
+        padding:15
     },
     form:{
-        alignSelf: 'stretch',
         paddingHorizontal: 30,
-        backgroundColor: '#fff',
+        backgroundColor: '#f6f6f6',
         paddingVertical:30,
+        borderRadius:20,
+        marginTop:15,
 
     },
     input:{
-        borderWidth: 1,
-        borderColor: '#ddd',
+     
         paddingHorizontal: 20,
         fontSize: 16,
         color: '#444',
         height: 44,
-        marginBottom: 20,
-        borderRadius: 4
+        marginTop: 20,
+        borderRadius: 30,
+        backgroundColor:'#fff'
     },
     button:{
         height: 42,
-        backgroundColor: '#32CD32',
-        justifyContent: 'center',
+        backgroundColor: '#fc5185',
+        flexDirection:'row',
+        justifyContent: 'flex-end',
         alignItems:'center',
-        borderRadius:4,
-        marginTop: 3
+        borderRadius:30,
+        marginTop: 20,
+        marginBottom:50
     },
-    clicImg:{
 
-    },
     textButton:{
         color:'#fff',
-        fontSize: 16
+        fontSize: 16,
     },
     header:{
-        height: 60,
-        backgroundColor:'#FF05B9',
-        marginTop: 20,
-        justifyContent:'center',
-        alignItems:'center'
-    },
-    headerImg:{
-        height:100,
-        marginTop:1,
-        backgroundColor:'#FF05B9',
-        justifyContent:'center',
-        alignItems:'center'
-    },
-    imgCategorias:{
-        width: 60,
-        height: 60
-    },
-    textTitulo:{
-        color:'#fff',
-        fontSize: 18
-    },
-    galeria:{
-        backgroundColor:'#dcdcdc',
-        flexDirection:"row",
         justifyContent:'space-around',
-        alignContent:'space-around',
-        padding:0
+        alignItems:'center',
+        flexDirection:'row'
     },
-    imgs:{
-        height: 65,
-        width: 79,
-        borderColor:'#696969',
-
+    images:{
+        width:310,
+        height:210,
+        margin:5,
+        borderWidth: 4,
+        borderColor: "#fff"
     },
-    btnSelect:{
+    cardIcon:{
+        flexDirection:'row',
+        justifyContent:'center',
+        alignItems:'center',
+        marginBottom:20
+    },
+    item:{
+        width:"100%",
+        backgroundColor:"#fff",
+        borderRadius:20,
+        flexDirection:"row",
+      },
+      checkBoxTxt:{
+        marginLeft:20
+      },
+      textCategorias:{
+        fontSize:16,
+        fontWeight:"bold",
+        color:"#364f6b",
+        marginBottom:15,
+        marginTop: 15,
+        
+      },
+      cardImages:{
+        marginTop:15,
+      },
+    thumb: {
+        width: 20,
+        height: 20,
+        borderColor: 'white',
+        borderWidth: 1,
+        borderRadius: 10,
+        shadowColor: 'black',
+        shadowOffset: {
+            width: 0,
+            height: 2
+        },
+        shadowRadius: 2,
+        shadowOpacity: 0.35,
+    },
 
-    }
-  
 })

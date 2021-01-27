@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import { Ionicons } from '@expo/vector-icons';
+import { AntDesign } from '@expo/vector-icons'; 
 import {FlatList, ScrollView ,SafeAreaView, View, Image, TextInput, Text, TouchableOpacity, ImageBackground} from 'react-native';
 import {useNavigation} from '@react-navigation/native';
 
@@ -57,7 +57,7 @@ export default function login(){
             <ImageBackground style={styles.header} source={imgherader}> 
                 <Image style={styles.logoIsa} source={logoisa}/>
                 <View style={{flexDirection:'row'}}> 
-                    <TextInput placeholder='Buscar..' style={styles.textInput}/><TouchableOpacity><Ionicons name="md-search" size={29} color="#e02041" style={{marginLeft: 2}}/></TouchableOpacity>
+                    <TextInput placeholder='Buscar..' style={styles.textInput}/><TouchableOpacity><AntDesign name="search1" size={24} color="black" /></TouchableOpacity>
                 </View>
             </ImageBackground>
             <View style={styles.cardCategorias}>

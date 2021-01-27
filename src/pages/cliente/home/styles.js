@@ -127,7 +127,8 @@ export default StyleSheet.create({
         width: 290,
         marginBottom: 5,
         padding: 3,
-        borderRadius: 4
+        borderRadius: 4,
+        marginRight:10
     },
     textCard:{
         color: '#DB7093',
