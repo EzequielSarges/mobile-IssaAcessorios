@@ -62,7 +62,7 @@ export default function ImagePickerExample() {
     })
     let json = await response.json()
     if(json){
-        console.log('foi')
+      navigarToStoreImage()
     }
 }
   
@@ -94,7 +94,7 @@ export default function ImagePickerExample() {
           placeholder="Valor"
           onChangeText={text => setValor(text)}
         />
-         <Text style={styles.textCategorias}>Escolha as categorias</Text>
+         <Text style={styles.textCategorias}>Escolha pelo menos uma categoria</Text>
          <Text style={styles.textCategorias}>Categoria 1</Text>
               <View style={styles.item} >
                   <Picker
@@ -161,7 +161,7 @@ export default function ImagePickerExample() {
                     })}
                   </Picker>
               </View>               
-        <TouchableOpacity style={styles.button} onPress={navigarToStoreImage}>
+        <TouchableOpacity style={styles.button} onPress={sendForm}>
           <Text style={styles.textButton}>Avançar</Text>
           <AntDesign name="right" size={24} color="#fff" />
         </TouchableOpacity>

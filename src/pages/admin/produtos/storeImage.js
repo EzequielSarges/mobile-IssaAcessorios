@@ -20,6 +20,7 @@ export default function ImagePickerExample() {
   function changeColor (colorHsvOrRgb, resType){
     if (resType === 'end') {
         setoldColor(tinycolor(colorHsvOrRgb).toHexString(),);
+        console.log(oldColor)
     }
 
   }
@@ -45,7 +46,7 @@ export default function ImagePickerExample() {
     if (!result.cancelled) {
 
       setImage(oldArray => [...oldArray,result.uri] );
-      console.log(image)
+      //console.log(image)
     }
   };
 
